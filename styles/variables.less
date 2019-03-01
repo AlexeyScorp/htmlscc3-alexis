@@ -1,0 +1,68 @@
+html, body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+
+@color_dark: #313131;
+@p_dark_color: #616161;
+@grey_color: #f7f7f7;
+@color_bright: #fff;
+@color_red: #fc5f45;
+@color_green: #38c695;
+@color_purp: #b27cf5;
+@color_orange: #feb960;
+
+
+.color_bright() {
+  color: @color_bright;
+}
+
+.color_dark() {
+  color: @color_dark;
+}
+
+
+.color_header_nav() {
+  color:  #272727
+}
+
+
+
+.bg_bright() {
+  background: #fff;
+}
+
+
+
+.button_nav(@MainColor, @HoverColor, @MainBg, @HoverBg) {
+  background: @MainBg;
+  color: @MainColor;
+  transition: 1s;
+
+  &:hover {
+    background: @HoverBg;
+    color: @HoverColor;
+    box-shadow: 0 0 5px @MainBg;
+    text-shadow: 0 0 5px @MainColor;
+    cursor: pointer;
+  }
+}
+
+.services_height() {
+  height: auto;
+}
+
+.video_height() {
+  height:  500px;
+}
+
+.team_height() {
+  height: 1226px;
+}
+
+

@@ -1,0 +1,76 @@
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+div {
+  box-sizing: border-box;
+}
+@font-face {
+  src: url('../fonts/LibreBaskerville-Regular.ttf');
+  font-family: "Libre_Baskerville_Regular";
+}
+@font-face {
+  src: url('../fonts/LibreBaskerville-Bold.ttf');
+  font-family: "Libre_Baskerville_Bold";
+}
+@font-face {
+  src: url('../fonts/Wisdom.otf');
+  font-family: "Wisdom";
+}
+@font-face {
+  src: url('../fonts/Poppins-Medium.ttf');
+  font-family: "Poppins_Medium";
+}
+@font-face {
+  src: url('../fonts/Poppins-Regular.ttf');
+  font-family: "Poppins_Regular";
+}
+h2,
+h3 {
+  color: #313131;
+}
+h1 {
+  margin: 0 auto 50px;
+  font-family: "Libre_Baskerville_Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 85px;
+  text-align: center;
+  color: #ffffff;
+  width: 818px;
+}
+h2 {
+  margin: 0 auto 25px auto;
+  font-family: "Libre_Baskerville_Bold", sans-serif;
+  font-size: 50px;
+}
+h3 {
+  font-family: "Poppins_Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+h4 {
+  font-family: "Poppins_Regular", sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+h5 {
+  font-family: "Poppins_Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin: 17px auto 13px;
+  line-height: 18px;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: #616161;
+}
